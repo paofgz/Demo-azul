@@ -29,7 +29,7 @@ public class PersonaController {
 
     @PostMapping("/save")
     public Persona save(@RequestBody Persona persona) throws Exception{
-        personaService.insertar(persona);
+        // personaService.insertar(persona);
         return persona;
     }
 }
