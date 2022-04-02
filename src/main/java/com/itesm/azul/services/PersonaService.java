@@ -1,11 +1,14 @@
 package com.itesm.azul.services;
 
+
 import com.itesm.azul.models.Persona;
 import com.itesm.azul.repositories.PersonaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class PersonaService {
 
     @Autowired
@@ -22,4 +25,5 @@ public class PersonaService {
         //personaRepository.insert();
         return persona;
     }
+
 }
