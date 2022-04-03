@@ -1,13 +1,9 @@
 package com.itesm.azul.controllers;
 
 import com.itesm.azul.models.Empleado;
-import com.itesm.azul.models.Persona;
 import com.itesm.azul.services.EmpleadoService;
-import com.itesm.azul.services.PersonaService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -17,18 +13,29 @@ public class EmpleadoControlador {
     @Autowired
     EmpleadoService empleadoService;
 
-    @GetMapping("/get")
-    public Empleado getOne(){
-        Empleado e = new Empleado();
-        e.setEmail("karen@tec.mx");
-        e.setName("Karen");
-        e.setLastname("Macias");
-        e.setRole("Manager");
-        return e;
+    @GetMapping("/get/{id}")
+    public Empleado getOne(@PathVariable String id){
+        return empleadoService.getOne(id);
     }
 
-    @GetMapping("/getAll")
+    @GetMapping("/list")
     public List<Empleado> getAll(){
         return empleadoService.getAll();
     }
+    
+    @PutMapping("/edit/{id}")
+    public Empleado editEmployee(@PathVariable String id, @RequestBody Empleado updates) throws Exception {
+        return empleadoService.editEmployee(id, updates);
+    }
+
+    @PostMapping("/add")
+    public Empleado addNewEmployee(@RequestBody Empleado addedEmployee) throws Exception {
+        return empleadoService.addNewEmployee(addedEmployee);
+    }
+
+    @DeleteMapping("/delete/{id}")
+    public Boolean deleteEmployee(@PathVariable String id) throws Exception {
+        return empleadoService.deleteEmployee(id);
+    }
+    
 }
