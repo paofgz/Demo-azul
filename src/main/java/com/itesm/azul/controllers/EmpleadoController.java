@@ -9,13 +9,13 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/v1/empleado")
-public class EmpleadoControlador {
+public class EmpleadoController {
     @Autowired
     EmpleadoService empleadoService;
 
-    @GetMapping("/get/{id}")
-    public Empleado getOne(@PathVariable String id){
-        return empleadoService.getOne(id);
+    @GetMapping("/get/{name}")
+    public Empleado getOne(@PathVariable String name){
+        return empleadoService.getOne(name);
     }
 
     @GetMapping("/list")
@@ -23,9 +23,9 @@ public class EmpleadoControlador {
         return empleadoService.getAll();
     }
     
-    @PutMapping("/edit/{id}")
-    public Empleado editEmployee(@PathVariable String id, @RequestBody Empleado updates) throws Exception {
-        return empleadoService.editEmployee(id, updates);
+    @PutMapping("/edit/{name}")
+    public Empleado editEmployee(@PathVariable String name, @RequestBody Empleado updates) throws Exception {
+        return empleadoService.editEmployee(name, updates);
     }
 
     @PostMapping("/add")
@@ -33,9 +33,9 @@ public class EmpleadoControlador {
         return empleadoService.addNewEmployee(addedEmployee);
     }
 
-    @DeleteMapping("/delete/{id}")
-    public Boolean deleteEmployee(@PathVariable String id) throws Exception {
-        return empleadoService.deleteEmployee(id);
+    @DeleteMapping("/delete/{name}")
+    public Boolean deleteEmployee(@PathVariable String name) throws Exception {
+        return empleadoService.deleteEmployee(name);
     }
     
 }

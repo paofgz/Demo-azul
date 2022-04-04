@@ -14,9 +14,9 @@ public class VideoController {
     VideoService videoService;
 
     //READ ONE
-    @GetMapping("/get/{id}")
-    public Video getOne(@PathVariable String id) {
-        return videoService.getOne(id);
+    @GetMapping("/get/{vide_name}")
+    public Video getOne(@PathVariable String vide_name) {
+        return videoService.getOne(vide_name);
     }
 
     //GET ALL VIDEOS
@@ -32,14 +32,14 @@ public class VideoController {
     }
 
     //UPDATE
-    @PutMapping("/edit/{id}")
-    public Video editVideo(@PathVariable String id, @RequestBody Video updates) throws Exception {
-        return videoService.editVideo(id, updates);
+    @PutMapping("/edit/{vide_name}")
+    public Video editVideo(@PathVariable String vide_name, @RequestBody Video updates) throws Exception {
+        return videoService.editVideo(vide_name, updates);
     }
 
     //DELETE
-    @DeleteMapping("/delete/{id}")
-    public Boolean deleteVideo(@PathVariable String id) throws Exception {
-        return videoService.deleteVideo(id);
+    @DeleteMapping("/delete/{vide_name}")
+    public Boolean deleteVideo(@PathVariable String vide_name) throws Exception {
+        return videoService.deleteVideo(vide_name);
     }
 }

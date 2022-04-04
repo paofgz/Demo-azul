@@ -1,6 +1,8 @@
 package com.itesm.azul.services;
 
+import com.itesm.azul.models.Settings;
 import com.itesm.azul.models.Video;
+import com.itesm.azul.repositories.SettingRepository;
 import com.itesm.azul.repositories.VideoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,7 +15,8 @@ import java.util.List;
 public class VideoService {
     @Autowired
     VideoRepository videoRepository;
-    // SettingRepository settingRepo;
+    @Autowired
+    SettingRepository settingRepo;
 
     //READ ONE
     public Video getOne(String name) {
@@ -44,10 +47,10 @@ public class VideoService {
             // TODO: Check if this will be sent in the request or it will be obtained in backend logic
             throw new Exception("All videos must have a duration.");
         }
-        /*Setting setting = settingRepo.findOne(newVideo.getClient_id());
+        Settings setting = settingRepo.getLast(newVideo.getClient_id());
         if (newVideo.getDuration() < setting.getMinimum_time() || newVideo.getDuration() > setting.getMaximum_time()){
             throw new Exception("The video is shorter or longer than the allowed length");
-        }*/
+        }
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyyMMdd-HH:mm:ss");
         LocalDateTime now = LocalDateTime.now();
         newVideo.setCreated_at(now);
