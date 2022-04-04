@@ -11,10 +11,17 @@ public class EmpleadoRepository {
     public List<Empleado> findAll(){
         Empleado e1 = new Empleado();
         e1.setName("Paola");
+        e1.setLastname("Romero");
+        e1.setEmail("paola@gmail.com");
         e1.setRole("Agente");
+        e1.setClient_id("Adidas");
+        e1.setSupervisor_id("S01");
         Empleado e2 = new Empleado();
         e2.setName("Carlos");
+        e2.setLastname("Días");
+        e2.setEmail("carlos@gmail.com");
         e2.setRole("Supervisor");
+        e2.setClient_id("Converse");
         List<Empleado> empleados = new ArrayList<>();
         empleados.add(e1);
         empleados.add(e2);
@@ -27,6 +34,7 @@ public class EmpleadoRepository {
         e1.setRole("Agente");
         e1.setLastname("Juárez");
         e1.setEmail(name+"@gmail.com");
+        e1.setClient_id("Pull and Bear");
         e1.setSupervisor_id("S01");
         return e1;
     }
@@ -35,6 +43,7 @@ public class EmpleadoRepository {
         Empleado e1 = new Empleado();
         e1.setName(name);
         e1.setRole("Manager");
+        e1.setClient_id("Aeromexico");
         e1.setLastname("González");
         e1.setEmail(name+"@gmail.com");
         if (updates.getEmail() != null) {
@@ -53,6 +62,7 @@ public class EmpleadoRepository {
         Empleado e1 = new Empleado();
         e1.setName(newEmployee.getName());
         e1.setLastname(newEmployee.getLastname());
+        e1.setClient_id(newEmployee.getClient_id());
         e1.setRole(newEmployee.getRole());
         e1.setEmail(newEmployee.getEmail());
         e1.setSupervisor_id(newEmployee.getSupervisor_id());

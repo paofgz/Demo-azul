@@ -2,6 +2,7 @@ package com.itesm.azul.models;
 
 public class Empleado {
     private String role;
+    private String client_id;
     private String name;
     private String lastname;
     private String email;
@@ -13,6 +14,14 @@ public class Empleado {
 
     public void setRole(String role) {
         this.role = role;
+    }
+
+    public String getClient_id() {
+        return client_id;
+    }
+
+    public void setClient_id(String role) {
+        this.client_id = client_id;
     }
 
     public String getName() {

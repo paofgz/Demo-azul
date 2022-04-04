@@ -38,10 +38,12 @@ public class EmpleadoService {
             throw new Exception("All employees must have an email");
         } else if (newEmployee.getRole() != null && !newEmployee.getRole().equals("Agent") && !newEmployee.getRole().equals("Manager") && !newEmployee.getRole().equals("Supervisor")) {
             throw new Exception("The role must be Agent, Manager or Supervisor");
-        } else if (newEmployee.getRole().equals("Agent") && newEmployee.getSupervisor_id() == null){
-            throw new Exception ("Agents must be assigned to a Supervisor");
+        } else if (newEmployee.getRole().equals("Agent") && newEmployee.getSupervisor_id() == null) {
+            throw new Exception("Agents must be assigned to a Supervisor");
         } else if (newEmployee.getRole() != null && !newEmployee.getRole().equals("Agent") && newEmployee.getSupervisor_id() != null){
-            throw new Exception ("Only Agents are assigned to a supervisor");
+            throw new Exception("Only Agents are assigned to a supervisor");
+        } else if (newEmployee.getClient_id() == null) {
+            throw new Exception("All employees must be assigned to a company");
         }
         return empleadoRepo.create(newEmployee);
     }
