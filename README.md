@@ -7,6 +7,6 @@ Repositorio del equipo 3
 * [Calidad de software](#calidad-software)
 * [Estatus del proyecto](#estatus-proyecto)
 ## Calidad de software
-Sobre el registro del timelog y del defectlog [aquí](https://drive.google.com/file/d/1iRao2MyTk604A0ii39cE0BWNFr_WDbHV/view?usp=sharing)
+Sobre el registro del timelog y del defectlog [aquí].(https://drive.google.com/file/d/1iRao2MyTk604A0ii39cE0BWNFr_WDbHV/view?usp=sharing)
 ## Estatus del proyecto
 El proyecto está en progreso.
