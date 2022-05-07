@@ -55,5 +55,10 @@ Repositorio del equipo 3
       * [Paola Fernández Gutiérrez Zamora](https://docs.google.com/spreadsheets/d/1ktxPQuKZkIoh1DWvXK5oTmZT2UPSV4I_/edit#gid=658494084)
       * [Karen Rocío Macías Ávila](https://docs.google.com/spreadsheets/d/1-YqQs90hvGYxClA5NVurbzn5-WhqbHlk/edit#gid=658494084)
 
+#### Checklist
+   * Requerimientos del SRS base
+   * Diseño de la función asignada por equipo.
+   * Codificación de la función asignada por equipo.
+   
 ## Estatus del proyecto
 El proyecto está en progreso.
