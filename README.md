@@ -55,10 +55,10 @@ Repositorio del equipo 3
       * [Paola Fernández Gutiérrez Zamora](https://docs.google.com/spreadsheets/d/1ktxPQuKZkIoh1DWvXK5oTmZT2UPSV4I_/edit#gid=658494084)
       * [Karen Rocío Macías Ávila](https://docs.google.com/spreadsheets/d/1-YqQs90hvGYxClA5NVurbzn5-WhqbHlk/edit#gid=658494084)
 
-#### Checklist
+### Checklist
    * [Requerimientos del SRS base](https://docs.google.com/spreadsheets/d/1_LZYtmU7qfQ0JuUjiNGdR5xE7wCGiBl5/edit#gid=1181205418)
    * [Diseño de Backend](https://docs.google.com/spreadsheets/d/1_LZYtmU7qfQ0JuUjiNGdR5xE7wCGiBl5/edit#gid=1756450606)
    * [Codificación de Backend](https://docs.google.com/spreadsheets/d/1_LZYtmU7qfQ0JuUjiNGdR5xE7wCGiBl5/edit#gid=1625580482)
    
 ## Estatus del proyecto
-El proyecto está en progreso.
+Fase de diseño
