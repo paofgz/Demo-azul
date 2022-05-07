@@ -33,5 +33,27 @@ Repositorio del equipo 3
       * [Paola Fernández Gutiérrez Zamora](https://docs.google.com/spreadsheets/d/1ktxPQuKZkIoh1DWvXK5oTmZT2UPSV4I_/edit#gid=658494084)
       * [Karen Rocío Macías Ávila](https://docs.google.com/spreadsheets/d/1-YqQs90hvGYxClA5NVurbzn5-WhqbHlk/edit#gid=658494084)
 
+### Ciclo 2
+
+#### Timelog
+   * Diseño
+      * [Timelog del equipo](https://docs.google.com/spreadsheets/d/11LXtLuLkQCq-8IPu879_biRboKJq0ChV/edit#gid=1756650421)
+   * Diseño 
+      * [Carlos Eduardo Córdoba Hilton](https://docs.google.com/spreadsheets/d/1Vy7GwRVzHUnCqpMkoJZ0F4f3nlCesrqq/edit#gid=1756650421)
+      * [José Ernesto Gómez Aguilar](https://docs.google.com/spreadsheets/d/1-1zaehYuNn9-b5hrJj7F9s1YLTfoOaGZ/edit#gid=1756650421)
+      * [Hazel Astrid Ángeles Quevedo](https://docs.google.com/spreadsheets/d/1tb0w2vweLYr_HS_ra0OPoAjo1EGI7pQH/edit#gid=1756650421)
+      * [Paola Fernández Gutiérrez Zamora](https://docs.google.com/spreadsheets/d/1ktxPQuKZkIoh1DWvXK5oTmZT2UPSV4I_/edit#gid=1756650421)
+      * [Karen Rocío Macías Ávila](https://docs.google.com/spreadsheets/d/1-YqQs90hvGYxClA5NVurbzn5-WhqbHlk/edit#gid=1756650421)
+      
+#### Defectlog
+   * Diseño
+      * [Defectlog del equipo](https://docs.google.com/spreadsheets/d/11LXtLuLkQCq-8IPu879_biRboKJq0ChV/edit#gid=658494084)
+   * Diseño 
+      * [Carlos Eduardo Córdoba Hilton](https://docs.google.com/spreadsheets/d/1Vy7GwRVzHUnCqpMkoJZ0F4f3nlCesrqq/edit#gid=658494084)
+      * [José Ernesto Gómez Aguilar](https://docs.google.com/spreadsheets/d/1-1zaehYuNn9-b5hrJj7F9s1YLTfoOaGZ/edit#gid=658494084)
+      * [Hazel Astrid Ángeles Quevedo](https://docs.google.com/spreadsheets/d/1tb0w2vweLYr_HS_ra0OPoAjo1EGI7pQH/edit#gid=658494084)
+      * [Paola Fernández Gutiérrez Zamora](https://docs.google.com/spreadsheets/d/1ktxPQuKZkIoh1DWvXK5oTmZT2UPSV4I_/edit#gid=658494084)
+      * [Karen Rocío Macías Ávila](https://docs.google.com/spreadsheets/d/1-YqQs90hvGYxClA5NVurbzn5-WhqbHlk/edit#gid=658494084)
+
 ## Estatus del proyecto
 El proyecto está en progreso.
