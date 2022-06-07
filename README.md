@@ -78,7 +78,7 @@ Repositorio del equipo 3
       * [Karen Rocío Macías Ávila](https://docs.google.com/spreadsheets/d/1-YqQs90hvGYxClA5NVurbzn5-WhqbHlk/edit#gid=658494084)
       
 ### Medidas PSP Backend
-    * [Colecta de datos](https://docs.google.com/spreadsheets/d/1GF3sFYUPLW-cDtTGkU4qhOgSdd-jC5D8/edit#gid=465446128)
+  *[Colecta de datos](https://docs.google.com/spreadsheets/d/1GF3sFYUPLW-cDtTGkU4qhOgSdd-jC5D8/edit#gid=465446128)
     
 ### Checklist
    * [Requerimientos del SRS base](https://docs.google.com/spreadsheets/d/1_LZYtmU7qfQ0JuUjiNGdR5xE7wCGiBl5/edit#gid=1181205418)
