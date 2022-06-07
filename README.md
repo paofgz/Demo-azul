@@ -58,9 +58,9 @@ Repositorio del equipo 3
 ### Ciclo 3
 
 #### Timelog
-    * Programación y pruebas 
+   * Programación y pruebas
       * [Timelog del equipo](https://docs.google.com/spreadsheets/d/11LXtLuLkQCq-8IPu879_biRboKJq0ChV/edit#gid=1756650421)
-    * Programación y pruebas 
+   * Programación y pruebas
       * [Carlos Eduardo Córdoba Hilton](https://docs.google.com/spreadsheets/d/1Vy7GwRVzHUnCqpMkoJZ0F4f3nlCesrqq/edit#gid=1756650421)
       * [José Ernesto Gómez Aguilar](https://docs.google.com/spreadsheets/d/1-1zaehYuNn9-b5hrJj7F9s1YLTfoOaGZ/edit#gid=1756650421)
       * [Hazel Astrid Ángeles Quevedo](https://docs.google.com/spreadsheets/d/1tb0w2vweLYr_HS_ra0OPoAjo1EGI7pQH/edit#gid=1756650421)
@@ -78,7 +78,7 @@ Repositorio del equipo 3
       * [Karen Rocío Macías Ávila](https://docs.google.com/spreadsheets/d/1-YqQs90hvGYxClA5NVurbzn5-WhqbHlk/edit#gid=658494084)
       
 ### Medidas PSP Backend
-    * [Colecta de datos equipo Backend](https://docs.google.com/spreadsheets/d/1GF3sFYUPLW-cDtTGkU4qhOgSdd-jC5D8/edit#gid=465446128)
+    * [Colecta de datos](https://docs.google.com/spreadsheets/d/1GF3sFYUPLW-cDtTGkU4qhOgSdd-jC5D8/edit#gid=465446128)
     
 ### Checklist
    * [Requerimientos del SRS base](https://docs.google.com/spreadsheets/d/1_LZYtmU7qfQ0JuUjiNGdR5xE7wCGiBl5/edit#gid=1181205418)
