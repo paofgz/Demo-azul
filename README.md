@@ -79,11 +79,15 @@ Repositorio del equipo 3
       
 ### Medidas PSP Backend
   * [Colecta de datos](https://docs.google.com/spreadsheets/d/1GF3sFYUPLW-cDtTGkU4qhOgSdd-jC5D8/edit#gid=465446128)
-    
+  
+### Pruebas
+  * [Partición de equivalencia](https://drive.google.com/file/d/1ar9GxFOwpTfjB4uRoguJXbmgkBXOU72S/view?usp=sharing)
+  * [Diseño casos de prueba](https://docs.google.com/spreadsheets/d/1jRt04G0T0e_x-L4Dn1BPhYv5_Vwg-wqH/edit?usp=sharing&ouid=112342510330262082987&rtpof=true&sd=true)
+
 ### Checklist
    * [Requerimientos del SRS base](https://docs.google.com/spreadsheets/d/1_LZYtmU7qfQ0JuUjiNGdR5xE7wCGiBl5/edit#gid=1181205418)
    * [Diseño de Backend](https://docs.google.com/spreadsheets/d/1_LZYtmU7qfQ0JuUjiNGdR5xE7wCGiBl5/edit#gid=1756450606)
    * [Codificación de Backend](https://docs.google.com/spreadsheets/d/1_LZYtmU7qfQ0JuUjiNGdR5xE7wCGiBl5/edit#gid=1625580482)
    
 ## Estatus del proyecto
-Fase de diseño
+Fase de pruebas
